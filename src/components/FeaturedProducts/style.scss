@@ -1,0 +1,31 @@
+.featured__products {
+  .col-sm-3 {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      ul {
+        list-style: none;
+        display: flex;
+        padding: 8px 0 0;
+        li {
+          .icon {
+            color: #efce4a;
+          }
+          .disapled {
+            color: #a9a9a9;
+          }
+        }
+      }
+      h3 {
+        font-size: 1.1rem;
+        color: #5f5b57;
+      }
+      h5 {
+        font-size: 1.2rem;
+        color: #5f5b57;
+      }
+    }
+  }
+}

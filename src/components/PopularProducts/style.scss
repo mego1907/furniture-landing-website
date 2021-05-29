@@ -1,0 +1,51 @@
+/* Color */
+$mainColor: #e99c2e;
+$primaryColor: #5f5b57;
+
+.popular__products {
+  .content {
+    h4 {
+      color: $primaryColor;
+      font-size: 1.2rem;
+      margin-bottom: 14px;
+    }
+    p {
+      color: #a09e9c;
+    }
+  }
+
+  .popular__center {
+    .col-md-8 {
+      h5 {
+        font-size: 18px;
+        color: $primaryColor;
+      }
+      p {
+        font-size: 15px;
+        color: #a09e9c;
+        font-weight: 500;
+        max-width: 40ch;
+        padding: 12px 0;
+      }
+      .sales {
+        color: $primaryColor;
+        span {
+          color: $mainColor;
+        }
+      }
+      button {
+        border: 1px solid $primaryColor;
+        font-weight: 500;
+        padding: 7px 12px;
+        font-size: 14px;
+        color: $primaryColor;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background-color: $primaryColor;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

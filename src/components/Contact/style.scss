@@ -1,0 +1,43 @@
+.contact {
+  .col-lg-3 {
+    h4 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      color: #5f5b57;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        padding: 10px 0;
+        color: #a09e9c;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s linear;
+
+        &:hover {
+          color: #e99c2e;
+        }
+      }
+    }
+    form {
+      position: relative;
+      input {
+        outline: none;
+        width: 100%;
+        padding: 7px 10px;
+        border: 1px solid #a7b0bd;
+      }
+      button {
+        position: absolute;
+        right: 0;
+        border: none;
+        background: transparent;
+        color: #e99c2e;
+        font-size: 1.4rem;
+        padding: 0 12px;
+      }
+    }
+  }
+}
